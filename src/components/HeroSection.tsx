@@ -17,7 +17,7 @@ export default function HeroSection() {
 
       {/* Scanline beam — sweeps top → bottom */}
       <motion.div
-        className="absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/35 to-transparent pointer-events-none"
+        className="absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#E51C20]/25 to-transparent pointer-events-none"
         initial={{ top: "5%" }}
         animate={{ top: "95%" }}
         transition={{ duration: 6, repeat: Infinity, ease: "linear" }}

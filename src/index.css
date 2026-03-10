@@ -13,7 +13,7 @@
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 96%;
 
-    --primary: 4 76% 46%;
+    --primary: 359 79% 50%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 17%;
@@ -30,11 +30,11 @@
 
     --border: 0 0% 16%;
     --input: 0 0% 16%;
-    --ring: 4 76% 46%;
+    --ring: 359 79% 50%;
 
     --radius: 0.75rem;
 
-    --sj-red: 4 76% 46%;
+    --sj-red: 359 79% 50%;
     --sj-dark: 0 0% 4%;
     --sj-gray: 0 0% 62%;
     --sj-light: 0 0% 96%;
@@ -104,8 +104,8 @@
 
   .hero-grid {
     background-image:
-      linear-gradient(rgba(192, 57, 43, 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(192, 57, 43, 0.04) 1px, transparent 1px);
+      linear-gradient(rgba(229, 28, 32, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(229, 28, 32, 0.04) 1px, transparent 1px);
     background-size: 60px 60px;
     mask-image: radial-gradient(ellipse 80% 70% at 60% 50%, black 30%, transparent 100%);
   }
