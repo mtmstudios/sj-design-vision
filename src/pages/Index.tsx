@@ -8,7 +8,7 @@ import AboutSection from "@/components/AboutSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import FloatingSign from "@/components/FloatingSign";
+import ChatWidget from "@/components/ChatWidget";
 
 const Index = () => {
   return (
@@ -23,7 +23,7 @@ const Index = () => {
       <TestimonialsSection />
       <ContactSection />
       <Footer />
-      <FloatingSign />
+      <ChatWidget />
     </div>
   );
 };
