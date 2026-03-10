@@ -101,4 +101,12 @@
     @apply fixed w-3 h-3 rounded-full bg-primary pointer-events-none z-[9999] mix-blend-difference;
     transition: transform 0.15s ease-out;
   }
+
+  .hero-grid {
+    background-image:
+      linear-gradient(rgba(192, 57, 43, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(192, 57, 43, 0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 70% at 60% 50%, black 30%, transparent 100%);
+  }
 }
