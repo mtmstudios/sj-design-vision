@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown, CheckCircle2, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroUpload from "@/assets/hero-upload.jpg";
 import InquiryFunnel from "./InquiryFunnel";
 
 const CHECKS = [
@@ -28,12 +28,12 @@ export default function HeroSection() {
       {/* Background image — darkened */}
       <div className="absolute inset-0">
         <img
-          src={heroBg}
+          src={heroUpload}
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-[0.35]"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-background/80" />
+        <div className="absolute inset-0 bg-background/40" />
         <div
           className="absolute inset-0"
           style={{
