@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown, CheckCircle2, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroUpload from "@/assets/hero-upload.jpg";
 import InquiryFunnel from "./InquiryFunnel";
 
 const CHECKS = [
