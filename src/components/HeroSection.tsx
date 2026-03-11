@@ -28,12 +28,12 @@ export default function HeroSection() {
       {/* Background image — darkened */}
       <div className="absolute inset-0">
         <img
-          src={heroBg}
+          src={heroUpload}
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-[0.35]"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-background/80" />
+        <div className="absolute inset-0 bg-background/40" />
         <div
           className="absolute inset-0"
           style={{
